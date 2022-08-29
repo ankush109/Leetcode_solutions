@@ -27,7 +27,7 @@ public:
         int rh = isheight(root->right);
         if (rh == -1)
             return -1;
-        if (abs(lh - rh) > 1)
+        if (abs(lh - rh) > 1) // difference b/w left height and right height
             return -1;
         return max(rh, lh) + 1;
     }

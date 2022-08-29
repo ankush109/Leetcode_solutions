@@ -13,6 +13,8 @@ struct TreeNode
 class Solution
 {
 public:
+    // diameter of a binary tree is longest path of two nodes
+
     int diameterOfBinaryTree(TreeNode *root)
     {
         int d = 0;
