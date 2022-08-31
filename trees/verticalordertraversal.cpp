@@ -23,7 +23,7 @@
 // public:
 //     vector<vector<int>> verticalTraversal(TreeNode *root)
 //     {
-//         // map<int, map<int, multiset<int>>> nodes; // value, vertical,level
+//         // map<int, map<int, multiset<int>>> nodes; //  vertical ,level ,value
 //         // queue<pair<TreeNode *, pair<int, int>>> ans;
 //         ans.push({root, {0, 0}});
 //         while (!ans.empty())
