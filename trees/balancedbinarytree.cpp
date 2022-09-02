@@ -10,6 +10,7 @@ struct TreeNode
     TreeNode *left;
     TreeNode *right;
 };
+
 class Solution
 {
 public:
