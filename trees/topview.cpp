@@ -23,7 +23,7 @@
 //         {
 //             auto it = q.front();
 //             q.pop();
-//             Node *node = it.first;==
+//             Node *node = it.first;
 //             int line = it.second;
 //             if (m.find(line) == m.end())
 //                 m[line] = node->data;

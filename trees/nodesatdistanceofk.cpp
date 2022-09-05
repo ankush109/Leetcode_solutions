@@ -32,7 +32,7 @@ public:
             {
                 parent_track[curr->right] = curr;
                 q.push(curr->right);
-            }
+            } 
         }
     }
 
