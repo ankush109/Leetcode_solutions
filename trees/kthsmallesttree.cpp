@@ -17,7 +17,7 @@ public:
     {
         vector<int> ans;
         in(root, k, ans);
-        return ans[k - 1];
+        return ans[k - 1]; //  1 2 3 5 6 
     }
     void in(TreeNode *root, int k, vector<int> &ans)
     {
